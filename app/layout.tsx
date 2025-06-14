@@ -10,12 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <header>Hello i am a header</header>
-
         {children}
-        
-        <footer>Hello i am a footer</footer>
-        
       </body>
     </html>
   );
